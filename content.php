@@ -13,6 +13,11 @@
 
 </div><!-- /.blog-post -->
 
+<!-- Archives -->
+<h4>Archives</h4>
+<ol class="list-unstyled">
+  <?php wp_get_archives('type=monthly'); ?>
+</ol>
 
 <!-- ul with images should this stay in content.php? -->
 
