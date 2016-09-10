@@ -11,18 +11,7 @@ body {
     transition: background-color .5s;
 }
 
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-}
+
 
 .sidenav a {
     padding: 8px 8px 8px 32px;
@@ -71,4 +60,21 @@ float:left;
 text-align: right;
 display:inline-block;
 padding: 0;
+}
+.AdRight {
+    /*float:right;*/
+     /*border: 50px 30px 50px 80px;
+     height: 200px;
+    width: 50%;
+*/}
+.column-left {
+    /*float: left;*/
+}
+.blog-footer {
+    /*float: left;*/
+}
+.AdFrame {
+   /* height: 200px;
+    width: 50%;
+    background-color: powderblue;*/
 }
